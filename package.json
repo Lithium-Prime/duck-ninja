@@ -1,0 +1,11 @@
+{
+  "name": "duck-ninja",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:api": "bun run --filter @duck-ninja/api dev",
+    "dev:web": "bun run --filter @duck-ninja/web dev",
+    "test": "bun run --filter @duck-ninja/api test",
+    "typecheck": "bun run --filter '*' typecheck"
+  }
+}

@@ -1,0 +1,7 @@
+# Copy to .dev.vars and fill in. Never commit real values.
+BETTER_AUTH_SECRET=replace-with-at-least-32-random-chars!!
+S3_ENDPOINT=https://YOUR_ACCOUNT_ID.r2.cloudflarestorage.com
+S3_BUCKET=duck-ninja
+S3_ACCESS_KEY_ID=replace-me
+S3_SECRET_ACCESS_KEY=replace-me
+S3_REGION=auto

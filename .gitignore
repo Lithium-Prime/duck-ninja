@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Bun / tooling caches
+.turbo/
+*.tsbuildinfo
+
+# Environment & secrets (never commit)
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.pem
+*.key
+
+# Cloudflare Wrangler (local state & auth — keep wrangler.toml)
+.wrangler/
+.config/
+.mf/
+
+# Build outputs
+dist/
+build/
+.vite/
+apps/web/dist/
+apps/api/dist/
+
+# Logs & OS
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Editors (optional local)
+.idea/
+*.swp
+*.swo
+
+# Agent / local scratch (not product source)
+.scratch/
+docs/
+
+# Test / coverage
+coverage/
+*.lcov
